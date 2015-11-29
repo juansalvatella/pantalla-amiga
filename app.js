@@ -29,6 +29,10 @@ app.get('/', function(req, res) {
 app.get('/css/main.css', function(req, res) {
   res.sendFile(path.join(__dirname + req.url));
 });
+app.get('/css/main2.css', function(req, res) {
+  res.sendFile(path.join(__dirname + req.url));
+});
+
 
 app.get('/css/normalize.min.css', function(req, res) {
   res.sendFile(path.join(__dirname + req.url));
@@ -47,12 +51,12 @@ app.post('/i-am-sitting-in', function(req, res) {
   var c = color[col];
   if(row % 2)
   {
-    if(color[col]) res.sendFile(path.join(__dirname + '/blue.html'));
+    if(color[col]) res.sendFile(path.join(__dirname + '/red.html'));
     else res.sendFile(path.join(__dirname + '/red.html'));
   }
   else
   {
-    if(color[col] == 0) res.sendFile(path.join(__dirname + '/blue.html'));
+    if(color[col] == 0) res.sendFile(path.join(__dirname + '/red.html'));
     else res.sendFile(path.join(__dirname + '/red.html'));
   }
 });
@@ -69,7 +73,7 @@ app.get('/img/background.jpg', function(req, res) {
 
 // [START server]
 // Start the server
-var server = app.listen(process.env.PORT || 8080, function () {
+var server = app.listen(process.env.PORT || 80, function () {
   var host = server.address().address;
   var port = server.address().port;
 
