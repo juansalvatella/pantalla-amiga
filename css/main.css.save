@@ -1,4 +1,4 @@
-/*! HTML5 Boilerplate v5.0 | MIT License | http://h5bp.com/ */
+https://8080-dot-1984316-dot-devshell.appspot.com//*! HTML5 Boilerplate v5.0 | MIT License | http://h5bp.com/ */
 
 html {
     color: #222;
@@ -6,72 +6,8 @@ html {
     line-height: 1.4;
 }
 
-body {
+.main-container {
     background: url('../img/background.jpg');
-    width: 100%;
-    height: auto;
-    background-size: cover;
-}
-
-.imgblock {
-    width: 500px;
-    position:relative;
-    margin: auto;
-    margin-top: 20%;
-}
-
-.blue {
-	background: #063A85 !important;
-}
-
-.red {
-        background: #831138 !important;
-}
-
-.yellow {
-        background: #FCDD09 !important;
-}
-
-.seat-input {
-    height: 30px;
-    font-size: 18px;
-    line-height: 1.2;
-    display: inline-block;
-    width: 320px;
-    padding: .5em .8em;
-    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-    color: #333;
-    font-weight: 400;
-    vertical-align: baseline;
-    background-color: #fff;
-    border: 1px solid #ccc;
-    border-radius: 3px;
-    background-clip: padding-box;
-    transition: border 200ms ease-in-out;
-}
-
-.btn { 
-    height: 50px;
-    font-size: 18px;
-    line-height: 1.2;
-    border-width: 1px;
-    border-style: solid;
-    border-color: #fec752;
-    color: #333;
-    background-color: #fec752;
-    text-decoration: none;
-    display: inline-block;
-    vertical-align: middle;
-    font-family: inherit;
-    cursor: pointer;
-    border: none;
-    margin: 0;
-    padding: 12px 1em;
-    overflow: visible;
-    text-align: center;
-    font-weight: 700;
-    border-radius: 3px;
-    -webkit-user-select: none;
 }
 
 ::-moz-selection {
